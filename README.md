@@ -1,4 +1,4 @@
-This project was uploaded to showcase an up-to-date look on my engine thus far. Be advised, it's buggy.
+This project was uploaded to showcase an up-to-date look on my engine thus far. This project requires Java version 8 or higher to run. Be advised, it's buggy.
 
 This project comes with:
 
