@@ -1,0 +1,265 @@
+{
+	"name": "Unnamed",
+	"format": "BeepBox",
+	"version": 4,
+	"scale": "Free",
+	"key": "C",
+	"introBars": 0,
+	"loopBars": 1,
+	"beatsPerBar": 8,
+	"ticksPerBeat": 8,
+	"beatsPerMinute": 190,
+	"reverb": 7,
+	"masterGain": 1,
+	"compressionThreshold": 1,
+	"limitThreshold": 1,
+	"limitDecay": 4,
+	"limitRise": 4000,
+	"limitRatio": 1,
+	"compressionRatio": 1,
+	"channels": [
+		{
+			"type": "pitch",
+			"name": "",
+			"octaveScrollBar": 3,
+			"instruments": [
+				{
+					"type": "spectrum",
+					"volume": 17,
+					"pan": 0,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": true,
+					"tieNoteTransition": false,
+					"clicklessTransition": false,
+					"aliases": false,
+					"vibrato": 0,
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
+					"detune": 0,
+					"effects": "reverb",
+					"transition": "soft",
+					"chord": "harmony",
+					"filterCutoffHz": 4000,
+					"filterResonance": 14,
+					"filterEnvelope": "steady",
+					"spectrum": [
+						86,
+						0,
+						43,
+						0,
+						14,
+						0,
+						0,
+						71,
+						0,
+						0,
+						43,
+						100,
+						0,
+						0,
+						57,
+						0,
+						86,
+						0,
+						43,
+						14,
+						14,
+						57,
+						14,
+						0,
+						0,
+						14,
+						43,
+						14,
+						14,
+						29
+					]
+				}
+			],
+			"patterns": [
+				{
+					"instrument": 1,
+					"notes": [
+						{
+							"pitches": [
+								91
+							],
+							"points": [
+								{
+									"tick": 0,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 2.6666666666666665,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"sequence": [
+				1
+			]
+		},
+		{
+			"type": "drum",
+			"name": "",
+			"octaveScrollBar": 0,
+			"instruments": [
+				{
+					"type": "noise",
+					"volume": -3,
+					"pan": 0,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": false,
+					"tieNoteTransition": false,
+					"clicklessTransition": false,
+					"aliases": false,
+					"vibrato": 0,
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
+					"detune": 50,
+					"effects": "none",
+					"transition": "soft",
+					"chord": "arpeggio",
+					"filterCutoffHz": 8000,
+					"filterResonance": 0,
+					"filterEnvelope": "steady",
+					"wave": "white"
+				}
+			],
+			"patterns": [
+				{
+					"instrument": 1,
+					"notes": [
+						{
+							"pitches": [
+								11
+							],
+							"points": [
+								{
+									"tick": 0,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 4,
+									"pitchBend": 0,
+									"volume": 0,
+									"forMod": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"sequence": [
+				1
+			]
+		},
+		{
+			"type": "mod",
+			"name": "",
+			"octaveScrollBar": 0,
+			"instruments": [
+				{
+					"type": "mod",
+					"volume": 0,
+					"pan": 0,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": false,
+					"tieNoteTransition": false,
+					"clicklessTransition": false,
+					"aliases": false,
+					"vibrato": 0,
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
+					"detune": 0,
+					"effects": "reverb",
+					"preset": 707,
+					"transition": "soft",
+					"chord": "harmony",
+					"filterCutoffHz": 2828,
+					"filterResonance": 29,
+					"filterEnvelope": "swell 1",
+					"modChannels": [
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					],
+					"modInstruments": [
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					],
+					"modSettings": [
+						4,
+						0,
+						0,
+						0,
+						0,
+						0
+					],
+					"modStatuses": [
+						2,
+						3,
+						3,
+						3,
+						3,
+						3
+					]
+				}
+			],
+			"patterns": [
+				{
+					"instrument": 1,
+					"notes": [
+						{
+							"pitches": [
+								5
+							],
+							"points": [
+								{
+									"tick": 16,
+									"pitchBend": 0,
+									"volume": 1,
+									"forMod": true
+								},
+								{
+									"tick": 64,
+									"pitchBend": 0,
+									"volume": 1,
+									"forMod": true
+								}
+							]
+						}
+					]
+				}
+			],
+			"sequence": [
+				1
+			]
+		}
+	]
+}

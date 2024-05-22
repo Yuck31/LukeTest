@@ -1,0 +1,231 @@
+{
+	"name": "Unnamed",
+	"format": "BeepBox",
+	"version": 4,
+	"scale": "Free",
+	"key": "C",
+	"introBars": 0,
+	"loopBars": 1,
+	"beatsPerBar": 8,
+	"ticksPerBeat": 8,
+	"beatsPerMinute": 150,
+	"reverb": 9,
+	"masterGain": 1,
+	"compressionThreshold": 1,
+	"limitThreshold": 1,
+	"limitDecay": 4,
+	"limitRise": 4000,
+	"limitRatio": 1,
+	"compressionRatio": 1,
+	"channels": [
+		{
+			"type": "pitch",
+			"name": "",
+			"octaveScrollBar": 3,
+			"instruments": [
+				{
+					"type": "chip",
+					"volume": 0,
+					"pan": 0,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": false,
+					"tieNoteTransition": false,
+					"clicklessTransition": false,
+					"aliases": true,
+					"vibrato": "none",
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
+					"detune": 0,
+					"effects": "reverb",
+					"transition": "hard",
+					"chord": "harmony",
+					"filterCutoffHz": 2828,
+					"filterResonance": 57,
+					"filterEnvelope": "steady",
+					"wave": "sawtooth",
+					"interval": "union"
+				}
+			],
+			"patterns": [
+				{
+					"instrument": 1,
+					"notes": [
+						{
+							"pitches": [
+								48
+							],
+							"points": [
+								{
+									"tick": 0,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 2,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						}
+					]
+				},
+				{
+					"instrument": 1,
+					"notes": []
+				},
+				{
+					"instrument": 1,
+					"notes": []
+				},
+				{
+					"instrument": 1,
+					"notes": []
+				},
+				{
+					"instrument": 1,
+					"notes": []
+				},
+				{
+					"instrument": 1,
+					"notes": []
+				},
+				{
+					"instrument": 1,
+					"notes": []
+				},
+				{
+					"instrument": 1,
+					"notes": []
+				}
+			],
+			"sequence": [
+				1
+			]
+		},
+		{
+			"type": "mod",
+			"name": "",
+			"octaveScrollBar": 0,
+			"instruments": [
+				{
+					"type": "mod",
+					"volume": 0,
+					"pan": 0,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": false,
+					"tieNoteTransition": false,
+					"clicklessTransition": false,
+					"aliases": false,
+					"vibrato": 0,
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
+					"detune": 0,
+					"effects": "chorus & reverb",
+					"preset": 583,
+					"transition": "soft fade",
+					"chord": "harmony",
+					"filterCutoffHz": 1414,
+					"filterResonance": 0,
+					"filterEnvelope": "swell 2",
+					"modChannels": [
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					],
+					"modInstruments": [
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					],
+					"modSettings": [
+						4,
+						0,
+						0,
+						0,
+						0,
+						0
+					],
+					"modStatuses": [
+						2,
+						3,
+						3,
+						3,
+						3,
+						3
+					]
+				}
+			],
+			"patterns": [
+				{
+					"instrument": 1,
+					"notes": [
+						{
+							"pitches": [
+								5
+							],
+							"points": [
+								{
+									"tick": 12,
+									"pitchBend": 0,
+									"volume": 1,
+									"forMod": true
+								},
+								{
+									"tick": 64,
+									"pitchBend": 0,
+									"volume": 1,
+									"forMod": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"instrument": 1,
+					"notes": []
+				},
+				{
+					"instrument": 1,
+					"notes": []
+				},
+				{
+					"instrument": 1,
+					"notes": []
+				},
+				{
+					"instrument": 1,
+					"notes": []
+				},
+				{
+					"instrument": 1,
+					"notes": []
+				},
+				{
+					"instrument": 1,
+					"notes": []
+				},
+				{
+					"instrument": 1,
+					"notes": []
+				}
+			],
+			"sequence": [
+				1
+			]
+		}
+	]
+}

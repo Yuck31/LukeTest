@@ -1,0 +1,207 @@
+{
+	"name": "MGS!",
+	"format": "BeepBox",
+	"version": 2,
+	"scale": "Free",
+	"key": "C",
+	"introBars": 0,
+	"loopBars": 1,
+	"beatsPerBar": 6,
+	"ticksPerBeat": 8,
+	"beatsPerMinute": 260,
+	"reverb": 20,
+	"channels": [
+		{
+			"type": "pitch",
+			"octaveScrollBar": 4,
+			"instruments": [
+				{
+					"type": "FM",
+					"volume": 18,
+					"pan": 0,
+					"detune": 0,
+					"effects": "chorus & reverb",
+					"transition": "seamless",
+					"chord": "strum",
+					"filterCutoffHz": 2828,
+					"filterResonance": 43,
+					"filterEnvelope": "steady",
+					"vibrato": "none",
+					"algorithm": "(1 2)←(3 4)",
+					"feedbackType": "4⟲",
+					"feedbackAmplitude": 5,
+					"feedbackEnvelope": "steady",
+					"operators": [
+						{
+							"frequency": "5×",
+							"amplitude": 15,
+							"envelope": "custom"
+						},
+						{
+							"frequency": "3×",
+							"amplitude": 15,
+							"envelope": "custom"
+						},
+						{
+							"frequency": "2×",
+							"amplitude": 10,
+							"envelope": "steady"
+						},
+						{
+							"frequency": "7×",
+							"amplitude": 8,
+							"envelope": "swell 1"
+						}
+					]
+				}
+			],
+			"patterns": [
+				{
+					"instrument": 1,
+					"notes": [
+						{
+							"pitches": [
+								58
+							],
+							"points": [
+								{
+									"tick": 0,
+									"pitchBend": 0,
+									"volume": 33
+								},
+								{
+									"tick": 0.6666666666666666,
+									"pitchBend": 0,
+									"volume": 100
+								}
+							]
+						},
+						{
+							"pitches": [
+								61
+							],
+							"points": [
+								{
+									"tick": 0.6666666666666666,
+									"pitchBend": 0,
+									"volume": 100
+								},
+								{
+									"tick": 1.3333333333333333,
+									"pitchBend": 0,
+									"volume": 100
+								}
+							]
+						},
+						{
+							"pitches": [
+								64,
+								67,
+								70
+							],
+							"points": [
+								{
+									"tick": 1.3333333333333333,
+									"pitchBend": 0,
+									"volume": 100
+								},
+								{
+									"tick": 9,
+									"pitchBend": 0,
+									"volume": 100
+								}
+							]
+						}
+					]
+				}
+			],
+			"sequence": [
+				1
+			]
+		},
+		{
+			"type": "pitch",
+			"octaveScrollBar": 4,
+			"instruments": [
+				{
+					"type": "PWM",
+					"volume": 18,
+					"pan": 0,
+					"detune": 0,
+					"effects": "chorus & reverb",
+					"transition": "seamless",
+					"chord": "strum",
+					"filterCutoffHz": 8000,
+					"filterResonance": 43,
+					"filterEnvelope": "custom",
+					"pulseWidth": 49,
+					"pulseEnvelope": "swell 1",
+					"vibrato": "none"
+				}
+			],
+			"patterns": [
+				{
+					"instrument": 1,
+					"notes": [
+						{
+							"pitches": [
+								58
+							],
+							"points": [
+								{
+									"tick": 0,
+									"pitchBend": 0,
+									"volume": 33
+								},
+								{
+									"tick": 0.6666666666666666,
+									"pitchBend": 0,
+									"volume": 100
+								}
+							]
+						},
+						{
+							"pitches": [
+								61
+							],
+							"points": [
+								{
+									"tick": 0.6666666666666666,
+									"pitchBend": 0,
+									"volume": 100
+								},
+								{
+									"tick": 1.3333333333333333,
+									"pitchBend": 0,
+									"volume": 100
+								}
+							]
+						},
+						{
+							"pitches": [
+								64,
+								67,
+								70
+							],
+							"points": [
+								{
+									"tick": 1.3333333333333333,
+									"pitchBend": 0,
+									"volume": 100
+								},
+								{
+									"tick": 9,
+									"pitchBend": 0,
+									"volume": 100
+								}
+							]
+						}
+					]
+				}
+			],
+			"sequence": [
+				1
+			]
+		}
+	]
+}

@@ -1,0 +1,2 @@
+1 to 3 .OGG files can be stored in a folder for either: Loop, Intro-Loop, or Intro-Loop+Outro.
+All the files in a folder MUST be of the same format to work (channels, bitrate, sample rate).

@@ -1,0 +1,14 @@
+All: vec3 position, vec4 diffuse (no alpha), vec4 ambient (no alpha), float attenuation
+Point: float radius (attenuation in shader, involves implementing spheres)
+Directional: vec3 direction, float srcRadius, float radScale (or just a padding angle)
+(we could probably combine Point and Directional lights into the same struct)
+Area: vec4 dimensions [width, height, depth, outerDistance] (involves implementing rounded boxes)
+
+
+=Use the camera's view as a bounding box to get all of the lights that are "colliding" with the camera, if they are within view (this means implementing spheres).
+=Divide the screen into cells.
+    -For each cell, check "collision" each light (AABB to AABB).
+    -Record the array-slots of the lights that collide to an array.
+    -Upload these slots to the GPU where they will be contained in "Cell" structs (up to 16 lights).
+    -Render the level like normal, batching multiple sprites into as few draw calls as possible.
+    -For each pixel (fragment) put on the screen, check which cell the pixel is in and do lighting calculations on specifically the lights in that cell.

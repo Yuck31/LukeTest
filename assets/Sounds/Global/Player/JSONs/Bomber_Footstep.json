@@ -1,0 +1,160 @@
+{
+	"name": "Unnamed",
+	"format": "BeepBox",
+	"version": 3,
+	"scale": "Free",
+	"key": "C",
+	"introBars": 0,
+	"loopBars": 1,
+	"beatsPerBar": 3,
+	"ticksPerBeat": 4,
+	"beatsPerMinute": 320,
+	"reverb": 0,
+	"channels": [
+		{
+			"type": "pitch",
+			"octaveScrollBar": 5,
+			"instruments": [
+				{
+					"type": "chip",
+					"volume": 23,
+					"pan": 0,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": false,
+					"vibrato": "none",
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
+					"detune": 0,
+					"effects": "none",
+					"transition": "slide",
+					"chord": "arpeggio",
+					"filterCutoffHz": 4000,
+					"filterResonance": 0,
+					"filterEnvelope": "steady",
+					"wave": "electric guitar",
+					"interval": "union"
+				}
+			],
+			"patterns": [
+				{
+					"instrument": 1,
+					"notes": [
+						{
+							"pitches": [
+								87
+							],
+							"points": [
+								{
+									"tick": 0,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 2,
+									"pitchBend": -1,
+									"volume": 0,
+									"forMod": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"sequence": [
+				1
+			]
+		},
+		{
+			"type": "mod",
+			"octaveScrollBar": 0,
+			"instruments": [
+				{
+					"type": "mod",
+					"volume": 0,
+					"pan": 0,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": false,
+					"vibrato": 0,
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
+					"detune": 0,
+					"effects": "reverb",
+					"preset": 322,
+					"transition": "hard fade",
+					"chord": "harmony",
+					"filterCutoffHz": 2828,
+					"filterResonance": 0,
+					"filterEnvelope": "twang 1",
+					"modChannels": [
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					],
+					"modInstruments": [
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					],
+					"modSettings": [
+						4,
+						0,
+						0,
+						0,
+						0,
+						0
+					],
+					"modStatuses": [
+						2,
+						3,
+						3,
+						3,
+						3,
+						3
+					]
+				}
+			],
+			"patterns": [
+				{
+					"instrument": 1,
+					"notes": [
+						{
+							"pitches": [
+								5
+							],
+							"points": [
+								{
+									"tick": 4,
+									"pitchBend": 0,
+									"volume": 1,
+									"forMod": true
+								},
+								{
+									"tick": 12,
+									"pitchBend": 0,
+									"volume": 1,
+									"forMod": true
+								}
+							]
+						}
+					]
+				}
+			],
+			"sequence": [
+				1
+			]
+		}
+	]
+}

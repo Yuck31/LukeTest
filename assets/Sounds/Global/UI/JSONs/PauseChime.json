@@ -1,0 +1,183 @@
+{
+	"name": "Unnamed",
+	"format": "BeepBox",
+	"version": 3,
+	"scale": "Free",
+	"key": "C",
+	"introBars": 0,
+	"loopBars": 1,
+	"beatsPerBar": 3,
+	"ticksPerBeat": 8,
+	"beatsPerMinute": 221,
+	"reverb": 9,
+	"channels": [
+		{
+			"type": "pitch",
+			"octaveScrollBar": 4,
+			"instruments": [
+				{
+					"type": "FM",
+					"volume": 9,
+					"pan": 0,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": true,
+					"vibrato": "none",
+					"vibratoDepth": 0,
+					"vibratoDelay": 0,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
+					"detune": 2,
+					"effects": "chorus & reverb",
+					"transition": "hard fade",
+					"chord": "strum",
+					"filterCutoffHz": 8000,
+					"filterResonance": 43,
+					"filterEnvelope": "twang 3",
+					"algorithm": "(1 2 3)←4",
+					"feedbackType": "1⟲ 2⟲ 3⟲ 4⟲",
+					"feedbackAmplitude": 3,
+					"feedbackEnvelope": "swell 3",
+					"operators": [
+						{
+							"frequency": "2×",
+							"amplitude": 14,
+							"envelope": "custom"
+						},
+						{
+							"frequency": "~1×",
+							"amplitude": 4,
+							"envelope": "swell 2"
+						},
+						{
+							"frequency": "6×",
+							"amplitude": 3,
+							"envelope": "twang 3"
+						},
+						{
+							"frequency": "13×",
+							"amplitude": 3,
+							"envelope": "steady"
+						}
+					]
+				}
+			],
+			"patterns": [
+				{
+					"instrument": 1,
+					"notes": [
+						{
+							"pitches": [
+								82,
+								70,
+								75,
+								87
+							],
+							"points": [
+								{
+									"tick": 0,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 4,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"sequence": [
+				1
+			]
+		},
+		{
+			"type": "pitch",
+			"octaveScrollBar": 3,
+			"instruments": [
+				{
+					"type": "FM",
+					"volume": -4,
+					"pan": 0,
+					"panDelay": 10,
+					"arpeggioSpeed": 12,
+					"fastTwoNoteArp": true,
+					"vibrato": "delayed",
+					"vibratoDepth": 0.3,
+					"vibratoDelay": 18,
+					"vibratoSpeed": 10,
+					"vibratoType": 0,
+					"detune": 0,
+					"effects": "chorus & reverb",
+					"transition": "cross fade",
+					"chord": "strum",
+					"filterCutoffHz": 2000,
+					"filterResonance": 14,
+					"filterEnvelope": "custom",
+					"algorithm": "(1 2 3)←4",
+					"feedbackType": "1⟲ 2⟲ 3⟲ 4⟲",
+					"feedbackAmplitude": 1,
+					"feedbackEnvelope": "custom",
+					"operators": [
+						{
+							"frequency": "1×",
+							"amplitude": 15,
+							"envelope": "tremolo6"
+						},
+						{
+							"frequency": "6×",
+							"amplitude": 9,
+							"envelope": "custom"
+						},
+						{
+							"frequency": "11×",
+							"amplitude": 9,
+							"envelope": "twang 3"
+						},
+						{
+							"frequency": "20×",
+							"amplitude": 6,
+							"envelope": "tremolo6"
+						}
+					]
+				}
+			],
+			"patterns": [
+				{
+					"instrument": 1,
+					"notes": [
+						{
+							"pitches": [
+								65,
+								53,
+								58,
+								70
+							],
+							"points": [
+								{
+									"tick": 0,
+									"pitchBend": 0,
+									"volume": 100,
+									"forMod": false
+								},
+								{
+									"tick": 8,
+									"pitchBend": 0,
+									"volume": 17,
+									"forMod": false
+								}
+							]
+						}
+					]
+				}
+			],
+			"sequence": [
+				1
+			]
+		}
+	]
+}

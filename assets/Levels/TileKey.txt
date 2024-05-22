@@ -1,0 +1,62 @@
+Load .txt file containing TileSet pathNames.
+
+Load SpriteSheet and Sprite layout based on current pathName.
+Start from TileSet 0.
+Use this until another SpriteSheet is needed.
+For each TileSprite in this set.
+-Number of Sprites held - 1 byte (If 0, start next TileSet. If -1, start animations.)
+-SpriteIDs - [Number of Sprites held * 2] bytes (& 0xFF)
+-NormalMapIDs - [Number of Sprites held * 2] bytes (& 0xFF)
+-Number of Sprite Indecies used - 1 byte (& 0xFF)
+-Sprite Indecies - [Number of Sprite Indecies used] bytes, signed (if first value is -1, skip)
+-Offsets - 3 * [Number of Sprite Indecies used] bytes, signed
+-ShearTypes - [Number of Sprite Indecies used] bytes
+-Shears - [Number of Sprite Indecies used] bytes
+-Color R, G, B, A - 4 fixed point bytes. (& 0xFF) (if alpha is 0, skip)
+-Emission - 1 fixed point byte (& 0xFF)
+-MaterialID - 1 byte (& 0xFF)
+
+Load TileAnimations.
+-Number of TileSprites affected - 1 byte
+-TileSpriteIDs - 2 bytes each (& 0xFFFF)
+-Number of Frames - 1 byte (& 0xFF)
+-Animation Type - 1 byte (if -1: AnimationID to get type and pointer from - 1 byte (& 0xFF).)
+(if Animation type is SpriteCoord: -SpriteSlot - 1 byte, signed)
+-For each frame:
+--FrameTime - 4 fixed point bytes
+--ActionID - 1 byte, signed
+--Action parameters - depends on animation type and ActionID
+
+
+In Level Editor
+-Adding TileSets: Pull up red bar > Bottom option "Add New TileSet"
+> Search for TileSet folder to add (should contain a SpriteSheet and SpriteLayout).
+> Editor loads Sheet and Layout, creates Sprites with the layout,
+   and creates a new tileSet associated with the Sheet.
+> From the normal editor screen, pull up the red bar to change TileSets.
+
+-Adding TileSprite: Click "Add TileSprite" (pulls up Sprites from current TileSet)
+> Select Sprite > Select normal map > repeat for each sprite and normal map.
+> Set sprite indecies.
+> Set color.
+> TileID is automatically assigned and a new TileSprite is created
+   (Other TileIDs are shifted if needed)
+
+-Adding TileAnimation.
+>Pull out green bar > Select "Add Tile Animation".
+?"Sprite Index", "Color", "Wrap", "Sprite Coord"
+>Select a TileSprite to start.
+>Start with one frame, set rate, actionType, and parameters for action.
+>Select "+" to add a new frame.
+>Select add TileSprites to select more TileSprites to add.
+ (
+    -If sprite index, can be bound to other index animations. Best practice is to not bind to multiple
+     animations that can affect the same slot. Must have same number of Sprites indecies, must
+     use the same index pointer, and must not be bound to a coord animation.
+    -If color, must use the same color pointer and must not be bound to another color animation.
+    -If wrap, can be bound to other wrap animations but must use the same wrap pointer.
+    -If sprite coord, can be bound to other coord animations but must use the same Sprite pointer,
+     must have the slot that the animation affects, and must not be bound to an index animation.
+ )
+[If you want a TileSprite to use multiple effects, bind it to multiple TileAnimations.]
+

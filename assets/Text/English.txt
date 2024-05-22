@@ -1,0 +1,189 @@
+#NOTES:
+#-All commands are started with a "\". Use another one before it to use it as a character.
+#-Lines that start with a "#" are a comment. Use a "\" before one to use it as a character.
+#-Lines are assumed to start with a non-space character. To start a line with
+# a space, use a "\" before one.
+#-Newlines in this file after a "\." are asssumed to be text-clears between scrolls of text (\/).
+#-String names use no tabs. String data is offset by one tab. This is how you seperate strings.
+
+#Text Commands:
+# \~ 1.0,1.0 (seperate with comma, end with space) Wavy text, 1st value determines height
+# range in pixels (1.0 = -1.0  to +1.0), 2nd value is wave speed asssuming 1.0 takes one
+# second to reach pi/2 (the apex). Use "\~  " (two spaces) to toggle off.
+#
+# \! 1.0 (end with space) Shaky text, value determines shake range in pixels (1.0 = -1.0 to +1.0).
+# Use "\!  " (two spaces) to toggle off.
+#
+# \c ffeeddcc (end with space) Text Color, default is ffffffff (opaque white). Use "\c  " (two spaces)
+# to set back to default.
+#
+# \% 1.0 (end with space) Scales text characters by the given value. Use "\%  " (two spaces) to
+# set back to the default 1.0.
+#
+# \n In-Game newline. ("enter key").
+#
+# \+MAIN_MENU_STORY_OPTION (end with space) Adds string of given name from this file to the string.
+#
+# \-PROFILE_NAME (end with a space) Adds string of given name from in-game save data to the string.
+#
+# \> 1.0 (end with space) Write Interval in seconds, default is whatever is in the settings data.
+# Use "\>  " (two spaces) to set back to default.
+#
+# \t 2 (end with space, ints only) Activates a cutscene trigger. Default "\t  " (two spaces) is 0.
+#
+# \. Text pause (press button to continue).
+
+
+
+#
+#Main Menu
+#
+MAINMENU_STORY=		STORY
+MAINMENU_STORY_TIP=		Description to be made.
+
+MAINMENU_BATTLE=		BATTLE
+MAIN_MENU_BATTLE_TIP=		Battle against other players and claim victory!
+
+MAINMENU_PROFILES=		PROFILES
+MAINMENU_PROFILES_TIP=	Customize your own Bomber and Controller Settings.
+
+MAINMENU_EXTRAS=		EXTRAS
+MAINMENU_EXTRAS_TIP=		Description to be made.
+
+MAINMENU_SETTINGS=		SETTINGS
+MAINMENU_SETTINGS_TIP=	Adjust Game Settings.
+
+MAINMENU_EXIT=			EXIT
+MAINMENU_EXIT_TIP=		Exit to Desktop.
+
+
+#Main Menu/Story
+MAINMENU_STORY_NEWGAME=		NEW GAME
+MAINMENU_STORY_NEWGAME_TIP=	Start a new playthrough of the game.
+
+MAINMENU_STORY_LOADGAME=		LOAD GAME
+MAINMENU_STORY_LOADGAME_TIP=	Load a previously saved playthrough.
+
+MAINMENU_STORY_COPYDATA_OPTION=	COPY DATA
+MAINMENU_STORY_COPYDATA_TIP=	Copy a save file to create a backup.
+MAINMENU_STORY_COPYDATA_OVERWRITE=
+	\c ffff5050 \! 1.0 WARNING! \c ffffffff \! 0.0 You are about to delete the\n
+	data in that file by doing  this.
+MAINMENU_STORY_COPYDATA_COMPLETE=
+	The data has been copied.
+
+MAINMENU_STORY_DELETEDATA=		DELETE DATA
+MAINMENU_STORY_DELETEDATA_TIP=	ONLY PROCEED IF YOU KNOW HOW TO READ.
+MAIN_STORY_DELETEDATA_NODATA=	No data to delete.
+MAINMENU_STORY_DELETEDATA_DIALOG_0=
+	Are you REALLY sure you want to erase this file?
+MAINMENU_STORY_DELETEDATA_DIALOG_1=
+	\c ffffa0a0 Do you realize that this data will be GONE if you proceed?
+MAINMENU_STORY_DELETEDATA_DIALOG_2=
+	\c ffff4040 \! 1.0 No, seriously. The consequences will be severe\n
+	if you don't actually want to do this.
+MAINMENU_STORY_DELETEDATA_DIALOG_2= Hold \-MENU_CONFIRM  to Delete.
+MAINMENU_STORY_DELETEDATA_COMPLETE=
+	The data has been deleted.
+	
+
+
+#Main Menu/Battle
+MAINMENU_BATTLE_LOCAL=	LOCAL
+MAINMENU_BATTLE_LOCAL_TIP=	Battle against players in the same room as you.
+
+BATTLE_RULESETS_NEW=	NEW RULESET
+BATTLE_RULESETS_NEW_TIP=	Create a new ruleset. Make it once, use it a lot!
+BATTLE_RULESETS_EXISTING_TIP=	Loads the selected ruleset.
+
+BATTLE_RULES_WHICHGAMETYPE=	Which game type?
+
+BATTLE_RULES_GAMETYPE_CLASSIC=	CLASSIC
+BATTLE_RULES_GAMETYPE_CLASSIC_TIP=	Bomb everyone else and be the last one alive.
+
+BATTLE_RULES_GAMETYPE_REVERSI_OPTION=		REVERSI
+BATTLE_RULES_GAMETYPE_REVERSI_DESCRIPTION=	Paint the ground with your bombs to win.
+
+BATTLE_RULES_PLAYERCOUNT=		Number of Players: 
+BATTLE_RULES_PLAYERCOUNT_TIP=	How many people are going to be playing?
+
+BATTLE_RULES_WINCOUNT=		Rounds to win: 
+BATTLE_RULES_WINCOUNT_TIP=		How many rounds does a player need to win?
+
+
+MAINMENU_BATTLE_LAN=		LAN
+MAINMENU_BATTLE_LAN_TIP=	Battle against players over a LAN connection. 
+
+
+MAINMENU_BATTLE_ONLINE=	ONLINE
+MAINMENU_BATTLE_ONLINE_TIP=	Battle against players... potentially across the world!
+
+
+#Main Menu/Profiles
+MAINMENU_PROFILES_NEW=	CREATE NEW PROFILE
+MAINMENU_PROFILES_NEW_TIP=	Create a new profile.
+
+
+#Settings Menu
+SETTINGS_DISPLAYSETTINGS=	Display Settings
+SETTINGS_DISPLAYSETTINGS_TIP=	Affects window mode and screen resolution.
+
+SETTINGS_DISPLAYSETTINGS_WINDOWMODE=	Window Mode: 
+SETTINGS_DISPLAYSETTINGS_WINDOWMODE_TIP=	Affects the game's window mode.
+
+SETTINGS_DISPLAYSETTINGS_RESOLUTION=	Resolution: 
+SETTINGS_DISPLAYSETTINGS_RESOLUTION_TIP=	Affects the game's screen resolution.
+
+
+SETTINGS_GRAPHICSSETTINGS=		Graphics Settings
+SETTINGS_GRAPHICSSETTINGS_TIP=	Affects what graphical effects the game will use.
+
+SETTINGS_GRAPHICSSETTINGS_SHADOWS=	Shadows: 
+SETTINGS_GRAPHICSSETTINGS_SHADOWS_TIP=	Should the game render shadows? If chugging, recommended off.
+
+SETTINGS_GRAPHICSSETTINGS_RENDERER=	Renderer: 
+SETTINGS_GRAPHICSSETTINGS_RENDERER_TIP=	Affects what renderer the game will use.
+SETTINGS_GRAPHICSSETTINGS_RENDERER_SOFTWARE_TIP=
+	This is the defaut selected renderer. Compatible with\n
+	computers that have any Graphics Driver at all, but has\n
+	slow performance. Only use this if you literally can't play\n
+	the game with any other renderer.
+SETTINGS_GRAPHICSSETTINGS_RENDERER_OPENGL_TIP=
+	This renderer strikes a balance between compatability\n
+	and performance. Compatible with computers that have\n
+	a graphics driver with at least OpenGL 3.3.
+SETTINGS_GRAPHICSSETTINGS_RENDERER_VULKAN_TIP=
+	This renderer provides the best performance out of the\n
+	other renderers, but is only compatible with computers\n
+	that have a graphics driver with at least Vulkan 1.0.
+
+
+#Main Menu/Exit
+MAIN_MENU_EXIT_DIALOG=	Are you sure you want to quit?
+
+#All-Purpose
+YES=		Yes
+NO=		No
+OKAY=		Okay
+THATS_FINE=	That's fine.
+NOPE=		NOPE!
+DO_IT_ANYWAY=	Do it anyway!
+NEVER_MIND=	Never mind.
+DEWIT=		Dewit.
+DONE=		Done
+ON=		On
+OFF=		Off
+
+
+
+#Dialouge Box command:
+#{dialougeBox type, dialougeBox color, Speaker, emotion, Listener / DIRECTION}
+#Default: {talk, ffffffff, (null, so a point at 0, 0, 0), normal, DOWN}
+#Parameters can be skipped, giving their default values: {,, Player,, UP}
+
+
+#Test Cutscene
+TEST_CUTSCENE=
+	{,, Player1,, DOWN}
+	Hello?\>0.4...\>0.6 \>  \n
+	Is anyone here with me?\.

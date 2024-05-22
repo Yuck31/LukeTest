@@ -1,0 +1,87 @@
+/////
+Inspired by the Mega Man Zero series' EX Skills...
+The Player can (or will be able to) earn advanced
+Bomb Techniques when completing a planet with at
+least an "A" ranking (on average or on planet I'm
+not sure...)
+
+If you fail to get at least an "A" ranking, you can
+instead earn the EX technique from the Tower of
+HardShip (or the Training Tower, whichever one it is)
+\\\\\
+
+
+Fire Bomb: SFX DONE
+-The Fire Bomb is the bomb you start with.
+-Useful for burning flamable objects (plants, oil,
+flamable gas, etc.)
+-Useful for damaging earth-based enemies, ice-based
+enemies, and grass-based enemies.
+-Not useful for damaging water-based enemies and
+wind-based enemies.
+
+Burning Fire
+Incindiary Fire
+
+
+Thunder Bomb: SFX DONE
+-Thunder bombs can stun enemies depending on the Player's
+fire-ups in comparison to the enemy's size, weaknesses,
+and resistances.
+-Useful for charging up dead electronics.
+-Useful for damaging bird-based enemies and
+water-based enemies.
+
+Flash Thunder Bomb:
+Roaring Thunder Bomb:
+
+
+Ice Bomb:
+-Ice bombs can freeze enemies depending on the Player's
+fire-ups in comparison to the enemy's size, weaknesses,
+and resistances.
+-Useful for freezing water (and lava to an extent).
+-Useful for damaging bird-based enemies,
+grass-based enemies, and earth-based enemies.
+
+Freezing Ice Bomb:
+Absolute Zero Ice Bomb:
+
+
+Wind Bomb:
+-Wind bombs do not damage the player.
+-Wind boms thrust the player in a direction related
+to where the player is standing near the bomb.
+-Useful for blowing objects.
+-Useful for damaging fire-based enemies.
+-Not useful for damaging grass-based enemies and 
+bird-based enemies (unless they are also fire-based).
+
+
+Water Bomb:
+-Water bombs do not damage the player.
+-Useful for putting out fires and providing hydration
+to certain objects.
+-Useful for damaging fire-based enemies.
+-Not useful for damaging grass-based enemies and
+electric-based enemies.
+
+Flowing Water Bomb:
+Hydro Water Bomb:
+
+[Planet Castlevania EX Technique]
+Holy Water Bomb:
+-Leaves blue fire where it explodes, which does not
+damage
+
+
+Earth Bomb:
+-Useful for damaging electric-based enemies.
+-Not useful for damaging fire-based enemies and
+ice-based enemies.
+
+
+Shadow Bomb:
+
+
+Light Bomb:

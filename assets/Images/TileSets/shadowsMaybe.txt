@@ -1,0 +1,5 @@
+#How to make a .pbm file.
+P4 #format
+6 #width
+10 #height
+#Binary data here. If ASCII, Photoshop can translate it.

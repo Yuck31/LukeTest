@@ -1,0 +1,3 @@
+ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!?.-^abcdefghijklmnopqrstuvwxyz
+2
+10
