@@ -1,16 +1,15 @@
 This project was uploaded to showcase an up-to-date look on my engine thus far. Be advised, it's buggy.
 
 This project comes with:
--A base program showing a test level with a "revolving" global light with cel-shading and shadows.
- It also contains tiles using various different collision responses for testing purposes (some collisions are janky as a result).
- - WASD to move.
- - F to raise zPosition.
- - E to increase speed while moving.
- - G to snap to current tile.
- - Numpad + to zoom in.
- - Numpad - to zoom out.
- - Numpad Enter to reset zoom.
- - Arrow keys to control the second player. Some numpad keys next to them have the same functionally as player 1.
+ - A base program showing a test level with a "revolving" global light with cel-shading and shadows. It also contains tiles using various different collision responses for testing purposes (some collisions are janky as a result).
+ -- WASD to move.
+ -- F to raise zPosition.
+ -- E to increase speed while moving.
+ -- G to snap to current tile.
+ -- Numpad + to zoom in.
+ -- Numpad - to zoom out.
+ -- Numpad Enter to reset zoom.
+ -- Arrow keys to control the second player. Some numpad keys next to them have the same functionally as player 1.
 
 -A program made for editing animations in a custom format I use. (Needs full incorporation of fixed-point numbers)
  --In layout view, press Enter to start regioning a sprite. Click where you want the upper-left and lower-right corners to be.
