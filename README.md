@@ -18,7 +18,7 @@ This project comes with:
  - In anim view (click "ANIMATE" button), press Enter to add a frame using the selected sprite.
  - S sets this frame's sprite to the one selected. R sets rate, X sets xOffset, Y sets yOffset, and A sets action ID (Softlocks. Will rewrite in due time).
 
--A WIP program intened to be a level editor.
+-A WIP program intended to be a level editor.
  - WASD to move camera.
  - F/Left Click or G/Right Click to place selected tilemeshes. Click tiles in tilebar to select one. Scroll or drag scroll-bar to scroll. 
    (If a tilemesh doesn't render, that's because that tile's collision-type is set to 0. WIP)
